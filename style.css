@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 2rem 1rem;
+    background-color: rgb(15, 15, 15);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.884);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px #240eee71;
+    color: rgb(0, 0, 0);
+    flex-basis: 25rem;
+    height: 30rem;
+}
+
+.pantalla{
+    background-color: rgba(243, 243, 243, 0.979);
+    border: 1px solid rgba(22, 22, 22, 0.5);
+    border-radius: 7px;
+    font-size: 40px;
+    padding: .4rem;
+    overflow: auto;
+    text-align: right;
+}
+
+.botones-fila{
+    display: flex;
+    justify-content: space-between;
+    margin: .9rem 0;
+}
+
+.boton-calculadora{
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.151);
+    border: 1px solid rgba(22, 22, 22, 0.5);
+    border-radius: 7px;
+    color: black;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.281);
+    flex-basis: 21%;
+    font-size: 24px;
+}
+
+.boton-calculadora:last-child{
+    background-color: #240eee;
+    color: #fff;
+}
+
+.boton-calculadora:last-child:hover{
+    background-color: rgba(243, 243, 243, 0.979);
+    color: black;
+}
+
+.boton-calculadora:hover{
+    background-color: rgba(243, 243, 243, 0.979);
+}
+
+.boton-calculadora:active{
+    background-color: #240eee4f;
+}
+
+.mediano{
+    flex-basis: 48%;
+}
+
+.grande{
+    flex-basis: 74%;
+}
